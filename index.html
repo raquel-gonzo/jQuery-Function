@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Functions Assignment</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="container">
+
+        <div class="block">
+            <!-- <div class="block-header">addClass</div> -->
+            <button id="btn1">AddClass</button>
+            <p>Click the button to add class 'red' to this paragraph. The text color will change to red.</p>
+        </div>
+
+        <div class="block">
+            <!-- <div class="block-header">SlideToggle</div> -->
+            <button id="btn2">SlideToggle</button>
+            <p>Click the button to slidetoggle a hidden image</p>
+            <img id='morty' src="morty.gif" class="formatImg">
+        </div>
+
+        <div class="block">
+            <!-- <div class="block-header">Append</div> -->
+            <button id="btn3">Append</button>
+            <p id="append">Click the button to append a new paragraph.</p>
+        </div>
+
+        <div class="block">
+            <!-- <div class="block-header">Show/Hide</div> -->
+            <button id="btn4">show</button>
+            <button id="btn5">hide</button>
+            <p>Click the buttons to show/hide my favorite dance moves.</p>
+            <img id='sw' src="sw.gif" class="formatImg">
+        </div>
+
+        <div class="block">
+            <!-- <div class="block-header">Slide up / down</div> -->
+            <button id="btn6">Slide up</button>
+            <button id="btn7">Slide down</button>
+            <p>Click the button to slide this element up and down:</p>
+            <h2>celestial super nova galaxy</h2>
+        </div>
+
+        <div class="block">
+            <!-- <div class="block-header">Fade in / out</div> -->
+            <button id="btn8">fade in</button>
+            <button id="btn9">fade out</button>
+            <p>Click the button to fade this gif in / out</p>
+            <img id='st' src="st.webp" class="formatImg">
+        </div>
+
+        <div class="block">
+            <!-- <div class="block-header">Before / After</div> -->
+            <button id="btn10">before</button>
+            <button id="btn11">after</button>
+            <p id="b-a">Click the buttons to add text before this paragraph, and to add a catchphrase after the paragraph.</p>
+        </div>
+
+        <div class="block">
+            <!-- <div class="block-header">HTML</div> -->
+            <button id="btn12">HTML</button>
+            <button id="btn13">Text</button>
+            <p id="para">Click the button to display either text or HTML. Using .text() simply displays whatever is text is assigned, While .html() will apply any html stlying such as an anchor or h4 tag.</p>
+        </div>
+
+        <div class="block">
+            <!-- <div class="block-header">attr</div> -->
+            <button id="btn14">Attr</button>
+            <p>Click the button to set the width of the image. A list of attributes for images can be found <a href="https://www.w3schools.com/tags/tag_img.asp">here.</a></p>
+            <img id="SC" src="space cow.webp">
+        </div>
+
+        <div class="block">
+            <!-- <div class="block-header">prop/val</div> -->
+            <input type="checkbox" id="checkbox" name="checkbox" value="checked">
+            <p id="last">Check or uncheck the box. Text below will display if the box is checked or not.</p>
+            <p id="output-checked"></p>
+        </div>
+
+        <div class="block">
+            <!-- <div class="block-header">val</div> -->
+            <select id="menu">
+                <option>Option 1</option>
+                <option>Option 2</option>
+            </select>   
+            <p id="LL">Select an option. </p>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
